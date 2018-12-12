@@ -1,0 +1,6 @@
+framework module TMPinTuan {
+  umbrella header "TMPinTuan.h"
+
+  export *
+  module * { export * }
+}

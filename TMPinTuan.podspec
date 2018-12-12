@@ -49,5 +49,7 @@ spec.dependency'TMSDK'
 spec.dependency'TMUserCenter'
 spec.dependency'TMShare'
 spec.dependency'MJExtension'
+spec.dependency'AFNetworking'
+spec.dependency'MJExtension'
 
 end
