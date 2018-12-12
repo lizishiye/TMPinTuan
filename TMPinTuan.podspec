@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMPinTuan"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.1.1"
   spec.summary      = "This is a TMPinTuan's summary"
   spec.description  = <<-DESC
                       TM拼团描述：这里的描述，必须比s.summary的长度要长。
@@ -30,11 +30,11 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '9.0'
 
   spec.source       = { :git => "https://github.com/lizishiye/TMPinTuan.git", :tag => "#{spec.version}" }
-  spec.source_files  = "TMPinTuan/**/*.{h}"
+  spec.source_files = "TMPinTuan/**/*.{h}"
 
   spec.requires_arc = true 
 
-  spec.resources  = "TMPinTuan/Resource/*.bundle"
+  # spec.resources  = "TMPinTuan/Resource/*.bundle"
   spec.ios.vendored_frameworks = 'TMPinTuan/**/*.framework'
 
 valid_archs = ['armv7s','arm64','x86_64']
