@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TMPinTuan"
-  spec.version      = "0.0.1.3"
+  spec.version      = "0.0.1.4"
   spec.summary      = "This is a TMPinTuan's summary"
   spec.description  = <<-DESC
                       TM拼团描述：这里的描述，必须比s.summary的长度要长。
